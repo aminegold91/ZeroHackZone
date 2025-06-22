@@ -1,0 +1,107 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Cairo", sans-serif;
+}
+h2{
+    text-align: center;
+    padding: 15px 10px;
+}
+h5{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.txt{
+    direction: rtl;
+    padding: 8px 15px;
+    border-right: 4px solid #FF006B;
+    margin: 0 20px;
+    background: #eee;
+}
+section{
+    background: ;
+    padding: 10px 15px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section .card{
+    background: #eee;
+    margin: 15px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+section .card .c-img{
+    background: #555;
+    height: 250px;
+    width: 300px;
+    
+}
+section .card .c-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .card p{
+    padding: 15px 20px;
+}
+ .green{
+    padding: 10px 15px;
+    background: #A7FFC8;
+    margin: 0 20px;
+    border-right: 4px solid #008A34;
+}
+section .flex{
+    width: 300px;
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    height: 380px;
+}
+section .flex .c-img {
+    width: 300px;
+    overflow: hidden;
+    height: 250px;
+    
+}
+section .flex .c-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .flex h4{
+    padding: 10px 15px 5px 15px;
+    color: #0A6CF3;
+}
+section .flex p{
+    padding: 0px 20px 10px 15px;
+}
+.btn{
+    width: 100%;
+    height: 100px;
+    background: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    margin: 20px auto;
+    text-align: center;
+    height: 45px;
+    padding: 15px 20px;
+    background: #58FA93;
+    line-height: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #444;
+}
