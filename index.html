@@ -166,6 +166,25 @@
    جرّب Opera GX الآن
  </a>
  </div>
+ <!-- HTML -->
+<div class="language-switcher">
+  <button onclick="changeLanguage('ar')">🇲🇦 ar</button>
+  <button onclick="changeLanguage('fr')">🇫🇷
+ fr</button>
+  <button onclick="changeLanguage('en')">🇬🇧
+ en</button>
+</div>
+
+
+  <script >
+    // JS
+function changeLanguage(lang) {
+  window.location.href = `/${lang}/index.html`; // كل لغة عندها صفحة خاصة بها
+}
+
+  </script>
+
+  
   <script src="main.js"></script>
 </body>
 </html>
